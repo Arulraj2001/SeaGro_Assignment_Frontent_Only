@@ -11,8 +11,7 @@ SeaGro is a platform designed to connect users through learning, job opportuniti
 ✅ **Tech News** – Stay updated with the latest in technology.  
 ✅ **Content Sharing** – Share and interact with community posts.  
 
-## 🚀 Live Demo  
-You can access the live version of this project here: [GitHub Pages](https://yourusername.github.io/SeaGro/)  
+
 
 ## 🛠 Installation  
 1. Clone this repository:  
