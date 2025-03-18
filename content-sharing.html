@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Sharing</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">SeaGro</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="chat.html">Chat</a></li>
+                <li><a href="content-sharing.html" class="active">Content Sharing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="content-sharing-section">
+        <div class="content-posts">
+            <!-- Single Post -->
+            <div class="post">
+                <div class="post-header">
+                    <div class="post-user">
+                        <img src="images/user-avatar.png" alt="User Avatar" class="avatar">
+                        <h3>User1</h3>
+                    </div>
+                    <div class="post-time">
+                        <p>2 hours ago</p>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <p>This is a shared post about learning Python! Check out this amazing tutorial.</p>
+                    <img src="images/python-tutorial.jpg" alt="Python Tutorial" class="post-image">
+                </div>
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <button class="comment-btn">Comment</button>
+                    <button class="share-btn">Share</button>
+                </div>
+            </div>
+
+            <!-- Repeat Post Section as Needed -->
+            <!-- Another Post -->
+            <div class="post">
+                <div class="post-header">
+                    <div class="post-user">
+                        <img src="images/user-avatar.png" alt="User Avatar" class="avatar">
+                        <h3>User2</h3>
+                    </div>
+                    <div class="post-time">
+                        <p>1 day ago</p>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <p>Check out this article on the latest tech trends!</p>
+                    <img src="images/tech-trends.jpg" alt="Tech Trends" class="post-image">
+                </div>
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <button class="comment-btn">Comment</button>
+                    <button class="share-btn">Share</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Post New Content Section -->
+        <div class="post-new">
+            <h2>Share New Content</h2>
+            <textarea placeholder="Write your post..." rows="4"></textarea>
+            <input type="file" name="media" id="media-upload" accept="image/*,video/*">
+            <button class="post-btn">Post</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 SeaGro. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
